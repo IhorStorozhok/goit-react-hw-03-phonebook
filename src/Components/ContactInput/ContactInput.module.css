@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #4b5d64, #1a363f, #0f2027);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding: 20px, 15px, 0, 15px;
+}
+
+.inputLabel {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.contactInput {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto 25px auto;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.3rem;
+  background-color: rgb(255, 255, 255);
+  min-width: 350px;
+  border: none;
+
+  display: block;
+
+  transition: all 0.3s;
+}
+
+.inputButton {
+  display: block;
+  margin-top: 20px;
+  min-width: 100px;
+  min-height: 35px;
+  border-radius: 6px;
+  background-color: white;
+  color: #1a363f;
+  font-size: smaller;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
