@@ -23,6 +23,7 @@ const ContactList = ({ contacts, onDeleteButton }) => {
           );
         })}
       </ul>
+      <span></span>
     </div>
   );
 };
